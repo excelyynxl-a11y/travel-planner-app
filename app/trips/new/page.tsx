@@ -4,7 +4,7 @@ import { Card, CardContent, CardHeader } from"@/components/ui/card";
 import { cn } from "@/lib/utils";
 import { createTrip } from "@/lib/actions/create-trip";
 import { useTransition, useState } from "react";
-import { UploadButton } from "@/lib/actions/upload-thing";
+import { UploadButton } from "@/lib/upload-thing";
 import Image from "next/image";
 
 export default function NewTrip(){
