@@ -95,7 +95,7 @@ export default async function TripsPage() {
                 (<div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
                     {sortedTrips.slice(0, 6).map((trip, key) => (
                         <Link 
-                            href=""
+                            href={`/trips/${trip.id}`}
                             key={key}
                         >
                             <Card 
