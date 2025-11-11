@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🧳Travel Planner Web Application
 
-## Getting Started
+## ✈️ Overview
 
-First, run the development server:
+Travel Planner is a full-stack web application that allows users to:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Sign in securely using their GitHub account  
+- Plan and organize personalized trip itineraries  
+- Drag and drop destinations for easy itinerary management  
+- Visualize travel destinations on an interactive Google Map and a 3D rotating globe with pinned locations  
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🌎 Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **User Authentication:** Login via GitHub OAuth  
+- **Trip Management:** Create, edit and reorder trips and destinations  
+- **Interactive Maps:** View destinations on Google Maps and a 3D globe  
+- **Drag & Drop Itineraries:** Organize trip stops easily  
+- **File Uploads:** UploadThing API integration for images  
+- **Responsive Design:** Works on desktop and mobile devices  
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## ⚙️ Tech Stack
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Frontend** Next.js, React, Lucide-react 
+- **Backend** Next.js API Routes, Prisma, NeonDB, PostgreSQL 
+- **Map and visualisation** Google Maps API
+- **Authentication** GitHub OAuth
+- **Media upload** UploadThing API
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🚀 Live Travel Planner
+**Deployed on Vercel:** (https://travel-planner-app-47mf-ieftmj3h7-excelyynxs-projects.vercel.app/)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
